@@ -1,3 +1,8 @@
+# notes 
+- [React Split Pane](https://github.com/tomkp/react-split-pane)
+- [React Dragable](https://github.com/mzabriskie/react-draggable)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
