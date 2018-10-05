@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import classnames from "classnames";
 import Draggable from "react-draggable";
+import Header from "./UI/Header";
+import LeftPanel from "./components/LeftPanel";
+import RightPanel from "./components/RightPanel";
 import "./App.css";
 
 class App extends Component {
@@ -8,18 +11,18 @@ class App extends Component {
     super(props);
     this.state = {
       leftStyles: {
-        width: "50vw"
+        width: "50vw",
       },
       rightStyles: {
-        width: "50vw"
+        width: "50vw",
       },
       centerStyles: {
-        transform: "translate(0px ,0px )"
+        transform: "translate(0px ,0px )",
       },
       position: {
         x: 0,
-        y: 0
-      }
+        y: 0,
+      },
     };
   }
 
@@ -36,14 +39,14 @@ class App extends Component {
       this.setState({
         rightStyles: { width: "100vw" },
         leftStyles: { width: "0vw" },
-        position: { x: -centerRight, y: 0 }
+        position: { x: -centerRight, y: 0 },
       });
     }
     if (percent >= 0.6) {
       this.setState({
         leftStyles: { width: "100vw" },
         rightStyles: { width: "0vw" },
-        position: { x: centerRight, y: 0 }
+        position: { x: centerRight, y: 0 },
       });
     }
   };
@@ -60,7 +63,7 @@ class App extends Component {
     this.setState({
       leftStyles: { width: leftWidth },
       rightStyles: { width: rightWidth },
-      position: { x: data.x, y: 0 }
+      position: { x: data.x, y: 0 },
     });
   };
   render() {
@@ -72,15 +75,10 @@ class App extends Component {
 
     return (
       <div className="app">
-        <header className="header">
-          <h1 className="portfolio-name">Portfolio Name</h1>
-          <nav className="menu">
-            <div className="menu">Menu &#9650; </div>
-          </nav>
-        </header>
+        <Header />
         <main>
-          <div className="left" style={leftStyles} />
-          <div className="right" style={rightStyles} />
+          <LeftPanel styles={leftStyles} />
+          <RightPanel styles={rightStyles} />
           <Draggable
             axis="x"
             bounds="main"

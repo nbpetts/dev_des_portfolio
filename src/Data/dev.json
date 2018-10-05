@@ -1,0 +1,28 @@
+{
+  "first": {
+    "headline": "It's a story",
+    "subhead": "here is the point",
+    "paragraphs": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut pretium est, et ornare quam. Donec in congue enim. In luctus varius nisl, eget varius tortor scelerisque sit amet. Aliquam sit amet nisi et risus eleifend blandit. Vestibulum odio lectus, consectetur et tempus eget, porta sit amet lorem. Etiam ac rhoncus sapien, in dignissim augue. Vestibulum et leo at enim luctus posuere id in odio. Integer rutrum rutrum justo quis semper. Maecenas sagittis orci eu ullamcorper porttitor. Vivamus pellentesque arcu non laoreet pretium. Praesent id bibendum erat.",
+      "Mauris augue lorem, sagittis in lobortis eu, euismod eu sem. Cras non nulla facilisis, maximus nibh ut, malesuada augue. Cras est ligula, accumsan id vehicula sed, dictum nec quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur porta risus nec sem congue volutpat eu sit amet felis. Duis ut ipsum lectus. Suspendisse elementum leo id quam iaculis, vel consequat nunc vehicula. Cras ut ex in sem gravida tempor. Maecenas ut mauris nec ipsum blandit luctus et sit amet justo. Phasellus eget porta magna. Nam suscipit sagittis ipsum a tincidunt. Nulla a porta quam. Curabitur sit amet commodo lacus. Curabitur sit amet ligula sapien.",
+      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc molestie et dolor sed vehicula. Vivamus pulvinar enim a orci faucibus vehicula. Morbi rhoncus neque nisi, bibendum accumsan lectus auctor id. Nulla aliquam aliquet magna sit amet consectetur. Pellentesque ornare nulla ante, vitae malesuada odio vulputate eu. Nullam dignissim luctus leo, tincidunt feugiat mauris congue ac. Fusce tincidunt tempus massa nec viverra. Sed gravida pretium metus, eu elementum urna tristique eget. Praesent tempus vestibulum luctus. Aliquam sit amet scelerisque risus. Praesent placerat hendrerit nulla et hendrerit. Sed eget laoreet lectus, id tempus neque. Aenean nec vehicula lectus, eget mattis metus."
+    ],
+    "images": ["/images/dev/0/first.jpeg", "/images/dev/0/second.webp"],
+    "list": ["The first Point", "The second Point"],
+    "linkText": "Check it out",
+    "linkDestination": "http://www.google.com"
+  },
+  "second": {
+    "headline": "It's another story",
+    "subhead": "here is the other point",
+    "paragraphs": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut pretium est, et ornare quam. Donec in congue enim. In luctus varius nisl, eget varius tortor scelerisque sit amet. Aliquam sit amet nisi et risus eleifend blandit. Vestibulum odio lectus, consectetur et tempus eget, porta sit amet lorem. Etiam ac rhoncus sapien, in dignissim augue. Vestibulum et leo at enim luctus posuere id in odio. Integer rutrum rutrum justo quis semper. Maecenas sagittis orci eu ullamcorper porttitor. Vivamus pellentesque arcu non laoreet pretium. Praesent id bibendum erat.",
+      "Mauris augue lorem, sagittis in lobortis eu, euismod eu sem. Cras non nulla facilisis, maximus nibh ut, malesuada augue. Cras est ligula, accumsan id vehicula sed, dictum nec quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur porta risus nec sem congue volutpat eu sit amet felis. Duis ut ipsum lectus. Suspendisse elementum leo id quam iaculis, vel consequat nunc vehicula. Cras ut ex in sem gravida tempor. Maecenas ut mauris nec ipsum blandit luctus et sit amet justo. Phasellus eget porta magna. Nam suscipit sagittis ipsum a tincidunt. Nulla a porta quam. Curabitur sit amet commodo lacus. Curabitur sit amet ligula sapien.",
+      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc molestie et dolor sed vehicula. Vivamus pulvinar enim a orci faucibus vehicula. Morbi rhoncus neque nisi, bibendum accumsan lectus auctor id. Nulla aliquam aliquet magna sit amet consectetur. Pellentesque ornare nulla ante, vitae malesuada odio vulputate eu. Nullam dignissim luctus leo, tincidunt feugiat mauris congue ac. Fusce tincidunt tempus massa nec viverra. Sed gravida pretium metus, eu elementum urna tristique eget. Praesent tempus vestibulum luctus. Aliquam sit amet scelerisque risus. Praesent placerat hendrerit nulla et hendrerit. Sed eget laoreet lectus, id tempus neque. Aenean nec vehicula lectus, eget mattis metus."
+    ],
+    "images": ["/images/dev/0/first.jpeg", "/images/dev/0/second.webp"],
+    "list": ["The first Point", "The second Point"],
+    "linkText": "Check it out",
+    "linkDestination": "http://www.google.com"
+  }
+}
